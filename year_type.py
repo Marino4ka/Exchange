@@ -8,6 +8,6 @@ def year_type(year):
         year_type = leap
     return year_type
 
-print(year_type(2004))
+print(year_type(1900))
 
 
