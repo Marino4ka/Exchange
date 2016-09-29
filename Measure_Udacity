@@ -1,0 +1,14 @@
+def measure_udacity(string):
+	result = 0
+	for e in string:
+		if e[0] == 'U':
+			result = result + 1
+	return result
+
+
+
+print measure_udacity(['Dave','Sebastian','Katy'])
+#>>> 0
+
+print measure_udacity(['Umika','Umberto'])
+#>>> 2
