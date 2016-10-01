@@ -20,7 +20,13 @@ def find_element(list, element):
                     position = -1
     return position
     
-
+# variant cherz index:
+def find_element(list, element):
+    if element in list:
+        return list.index(element)
+    else:
+        return -1
+    return position
 
 print find_element(['flower','petal', 'tree', 'gras'],'petal')
 
